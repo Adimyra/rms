@@ -1,0 +1,187 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-19 15:35:21.669690",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_vxdx",
+  "office",
+  "hr_provision_section",
+  "sa",
+  "mts",
+  "gds",
+  "column_break_ngyb",
+  "os_sa",
+  "os_mts",
+  "os_gds",
+  "bag_processing_section",
+  "bag_received_from_previous_set",
+  "received_in_set",
+  "column_break_imqf",
+  "bag_opened",
+  "bag_closed",
+  "articles_processing_section",
+  "article_received",
+  "articles_despatched",
+  "column_break_fkli",
+  "bag_transfered",
+  "errors_reported",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_vxdx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Data",
+   "label": "Office"
+  },
+  {
+   "fieldname": "hr_provision_section",
+   "fieldtype": "Section Break",
+   "label": "HR Provision"
+  },
+  {
+   "fieldname": "sa",
+   "fieldtype": "Data",
+   "label": "SA"
+  },
+  {
+   "fieldname": "mts",
+   "fieldtype": "Data",
+   "label": "MTS"
+  },
+  {
+   "fieldname": "gds",
+   "fieldtype": "Data",
+   "label": "GDS"
+  },
+  {
+   "fieldname": "column_break_ngyb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "os_sa",
+   "fieldtype": "Data",
+   "label": "OS SA"
+  },
+  {
+   "fieldname": "os_mts",
+   "fieldtype": "Data",
+   "label": "OS MTS"
+  },
+  {
+   "fieldname": "os_gds",
+   "fieldtype": "Data",
+   "label": "OS GDS"
+  },
+  {
+   "fieldname": "bag_processing_section",
+   "fieldtype": "Section Break",
+   "label": "Bag Processing"
+  },
+  {
+   "fieldname": "bag_received_from_previous_set",
+   "fieldtype": "Data",
+   "label": "Bag Received from Previous Set"
+  },
+  {
+   "fieldname": "received_in_set",
+   "fieldtype": "Data",
+   "label": "Received in SEt"
+  },
+  {
+   "fieldname": "column_break_imqf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bag_opened",
+   "fieldtype": "Data",
+   "label": "Bag Opened"
+  },
+  {
+   "fieldname": "bag_closed",
+   "fieldtype": "Data",
+   "label": "Bag Closed"
+  },
+  {
+   "fieldname": "articles_processing_section",
+   "fieldtype": "Section Break",
+   "label": "Articles Processing"
+  },
+  {
+   "fieldname": "article_received",
+   "fieldtype": "Data",
+   "label": "Article Received"
+  },
+  {
+   "fieldname": "articles_despatched",
+   "fieldtype": "Data",
+   "label": "Articles Despatched"
+  },
+  {
+   "fieldname": "column_break_fkli",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bag_transfered",
+   "fieldtype": "Data",
+   "label": "Bag Transfered"
+  },
+  {
+   "fieldname": "errors_reported",
+   "fieldtype": "Data",
+   "label": "Errors Reported"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:12:00.588127",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "DMMR",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

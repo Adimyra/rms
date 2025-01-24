@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:bag_number",
+ "creation": "2025-01-24 21:25:19.946413",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date_and_time_of_receipt",
+  "name_of_official",
+  "column_break_sxut",
+  "set_no",
+  "section_break_iwev",
+  "receipt_from",
+  "bag_number",
+  "column_break_oslw",
+  "weight_in_kg",
+  "section_break_rokp",
+  "barcode_scan",
+  "add_code",
+  "column_break_hmay",
+  "total_scanned_article",
+  "section_break_tnjs",
+  "barcodes"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_and_time_of_receipt",
+   "fieldtype": "Datetime",
+   "label": "Date and Time of Receipt"
+  },
+  {
+   "fieldname": "name_of_official",
+   "fieldtype": "Data",
+   "label": "Name of Official"
+  },
+  {
+   "fieldname": "column_break_sxut",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "set_no",
+   "fieldtype": "Data",
+   "label": "Set No"
+  },
+  {
+   "fieldname": "section_break_iwev",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "receipt_from",
+   "fieldtype": "Data",
+   "label": "Receipt From"
+  },
+  {
+   "fieldname": "bag_number",
+   "fieldtype": "Data",
+   "label": "Bag Number",
+   "options": "Barcode",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_oslw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weight_in_kg",
+   "fieldtype": "Float",
+   "label": "Weight (In KG)"
+  },
+  {
+   "fieldname": "section_break_rokp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "barcode_scan",
+   "fieldtype": "Data",
+   "label": "Article Scanning"
+  },
+  {
+   "fieldname": "add_code",
+   "fieldtype": "Button",
+   "label": "Add Article"
+  },
+  {
+   "fieldname": "column_break_hmay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_scanned_article",
+   "fieldtype": "Float",
+   "label": "Total Scanned Article",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_tnjs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "barcodes",
+   "fieldtype": "Table",
+   "label": "Barcodes",
+   "options": "Bag Barcodes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:11:58.679340",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "NSH Opening",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

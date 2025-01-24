@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-19 15:34:38.935256",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "mms",
+  "column_break_lpsw",
+  "vehicle_no",
+  "section_break_rgxc",
+  "date",
+  "column_break_jswu",
+  "office",
+  "departure_section",
+  "schedule_start_time",
+  "column_break_nkqi",
+  "actual__start_time",
+  "arrival_section",
+  "schedule__end_time",
+  "column_break_zlib",
+  "actual_end_time",
+  "mail_details_section",
+  "no_of_bags",
+  "column_break_pglc",
+  "no_of_bags_pending",
+  "deviation_details_section",
+  "reason_for_delay"
+ ],
+ "fields": [
+  {
+   "fieldname": "mms",
+   "fieldtype": "Select",
+   "label": "MMS - RTN",
+   "options": "KOlkata - Patna\nPatna - Kolkata\nRanchi - Dhanbad\nDhanbad - Ranchi\nDhanbad - Jasidih"
+  },
+  {
+   "fieldname": "column_break_lpsw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vehicle_no",
+   "fieldtype": "Data",
+   "label": "Vehicle No"
+  },
+  {
+   "fieldname": "section_break_rgxc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_jswu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Data",
+   "label": "Office"
+  },
+  {
+   "fieldname": "departure_section",
+   "fieldtype": "Section Break",
+   "label": "Departure"
+  },
+  {
+   "fieldname": "schedule_start_time",
+   "fieldtype": "Time",
+   "label": "Schedule Start Time"
+  },
+  {
+   "fieldname": "column_break_nkqi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual__start_time",
+   "fieldtype": "Time",
+   "label": "Actual  Start Time"
+  },
+  {
+   "fieldname": "arrival_section",
+   "fieldtype": "Section Break",
+   "label": "Arrival"
+  },
+  {
+   "fieldname": "schedule__end_time",
+   "fieldtype": "Time",
+   "label": "Schedule  End Time"
+  },
+  {
+   "fieldname": "column_break_zlib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_end_time",
+   "fieldtype": "Time",
+   "label": "Actual End Time"
+  },
+  {
+   "fieldname": "mail_details_section",
+   "fieldtype": "Section Break",
+   "label": "Mail Details"
+  },
+  {
+   "fieldname": "no_of_bags",
+   "fieldtype": "Data",
+   "label": "No of Bags carried"
+  },
+  {
+   "fieldname": "column_break_pglc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "no_of_bags_pending",
+   "fieldtype": "Data",
+   "label": "No of Bags Pending"
+  },
+  {
+   "fieldname": "deviation_details_section",
+   "fieldtype": "Section Break",
+   "label": "Deviation Details"
+  },
+  {
+   "fieldname": "reason_for_delay",
+   "fieldtype": "Small Text",
+   "label": "Reason for Delay"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:12:00.091221",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "RTN",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

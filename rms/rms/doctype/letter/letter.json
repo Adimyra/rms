@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-18 15:04:37.345893",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date_of_receipt",
+  "letter_no",
+  "column_break_boex",
+  "type_of_letter",
+  "priority",
+  "attach_letter",
+  "section_break_iyrn",
+  "action_required",
+  "action",
+  "section_break_kpup",
+  "compliance_date",
+  "compliance_details",
+  "column_break_fugu",
+  "compliance_report_date",
+  "compliance_letter"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_of_receipt",
+   "fieldtype": "Date",
+   "label": "Date of Receipt"
+  },
+  {
+   "fieldname": "letter_no",
+   "fieldtype": "Data",
+   "label": "Letter No"
+  },
+  {
+   "fieldname": "column_break_boex",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_of_letter",
+   "fieldtype": "Select",
+   "label": "Type of Letter",
+   "options": "Letter\nDO"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority"
+  },
+  {
+   "fieldname": "attach_letter",
+   "fieldtype": "Attach Image",
+   "label": "Attach Letter"
+  },
+  {
+   "fieldname": "section_break_iyrn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "action_required",
+   "fieldtype": "Check",
+   "label": "Action Required"
+  },
+  {
+   "fieldname": "action",
+   "fieldtype": "Small Text",
+   "label": "Action"
+  },
+  {
+   "fieldname": "section_break_kpup",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "compliance_date",
+   "fieldtype": "Date",
+   "label": "Compliance Date"
+  },
+  {
+   "fieldname": "compliance_details",
+   "fieldtype": "Small Text",
+   "label": "Compliance Details"
+  },
+  {
+   "fieldname": "column_break_fugu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "compliance_report_date",
+   "fieldtype": "Date",
+   "label": "Compliance Report Date"
+  },
+  {
+   "fieldname": "compliance_letter",
+   "fieldtype": "Attach",
+   "label": "Compliance Letter"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:12:01.814181",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "Letter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,164 @@
+{
+ "actions": [],
+ "autoname": "TS-.###",
+ "creation": "2024-11-18 12:29:17.656132",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_eicd",
+  "office",
+  "network_section",
+  "nsp_1",
+  "nsp_2",
+  "broadband",
+  "column_break_zgrc",
+  "fault_description",
+  "software_section",
+  "sap",
+  "pos",
+  "cctv_section",
+  "dvr_status",
+  "monitor_status",
+  "column_break_emye",
+  "cctv_installed",
+  "cctv_working",
+  "cctv_not_working"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_eicd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Office",
+   "options": "Office Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "network_section",
+   "fieldtype": "Section Break",
+   "label": "Network"
+  },
+  {
+   "fieldname": "nsp_1",
+   "fieldtype": "Select",
+   "label": "NSP 1",
+   "options": "\nWorking\nNot Working"
+  },
+  {
+   "fieldname": "nsp_2",
+   "fieldtype": "Select",
+   "label": "NSP 2",
+   "options": "\nWorking\nNot Working"
+  },
+  {
+   "fieldname": "broadband",
+   "fieldtype": "Data",
+   "label": "Broadband"
+  },
+  {
+   "fieldname": "column_break_zgrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fault_description",
+   "fieldtype": "Small Text",
+   "label": "Fault Description"
+  },
+  {
+   "fieldname": "software_section",
+   "fieldtype": "Section Break",
+   "label": "Software"
+  },
+  {
+   "fieldname": "sap",
+   "fieldtype": "Data",
+   "label": "SAP"
+  },
+  {
+   "fieldname": "pos",
+   "fieldtype": "Data",
+   "label": "POS"
+  },
+  {
+   "fieldname": "cctv_section",
+   "fieldtype": "Section Break",
+   "label": "CCTV"
+  },
+  {
+   "fieldname": "dvr_status",
+   "fieldtype": "Data",
+   "label": "DVR Status"
+  },
+  {
+   "fieldname": "monitor_status",
+   "fieldtype": "Data",
+   "label": "Monitor Status"
+  },
+  {
+   "fieldname": "column_break_emye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cctv_installed",
+   "fieldtype": "Data",
+   "label": "CCTV Installed"
+  },
+  {
+   "fieldname": "cctv_working",
+   "fieldtype": "Data",
+   "label": "CCTV Working"
+  },
+  {
+   "fieldname": "cctv_not_working",
+   "fieldtype": "Data",
+   "label": "CCTV Not Working"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:12:01.243389",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "Tech Status",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

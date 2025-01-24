@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:bag_number",
+ "creation": "2025-01-24 21:57:23.623315",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date_and_time_of_closing",
+  "name_of_official",
+  "column_break_boop",
+  "set_no",
+  "section_break_oluw",
+  "closed_for",
+  "bag_number",
+  "column_break_itaw",
+  "weight_in_kg",
+  "section_break_uoji",
+  "barcode_scan",
+  "column_break_chmn",
+  "add_code",
+  "total_scanned_article",
+  "section_break_bprf",
+  "barcodes"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_and_time_of_closing",
+   "fieldtype": "Datetime",
+   "label": "Date and Time of Closing"
+  },
+  {
+   "fieldname": "name_of_official",
+   "fieldtype": "Data",
+   "label": "Name of Official"
+  },
+  {
+   "fieldname": "column_break_boop",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "set_no",
+   "fieldtype": "Data",
+   "label": "Set No"
+  },
+  {
+   "fieldname": "section_break_oluw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "closed_for",
+   "fieldtype": "Data",
+   "label": "Closed For"
+  },
+  {
+   "fieldname": "bag_number",
+   "fieldtype": "Data",
+   "label": "Bag Number",
+   "options": "Barcode",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_itaw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weight_in_kg",
+   "fieldtype": "Float",
+   "label": "Weight (In KG)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_break_uoji",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "barcode_scan",
+   "fieldtype": "Data",
+   "label": "Article Scanning"
+  },
+  {
+   "fieldname": "column_break_chmn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "add_code",
+   "fieldtype": "Button",
+   "label": "Add Article"
+  },
+  {
+   "fieldname": "total_scanned_article",
+   "fieldtype": "Float",
+   "label": "Total Scanned Article",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_bprf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "barcodes",
+   "fieldtype": "Table",
+   "label": "Barcodes",
+   "options": "Bag Barcodes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:11:58.426006",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "NSH Closing",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

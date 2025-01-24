@@ -151,6 +151,12 @@ app_license = "mit"
 # 	],
 # }
 
+fixtures = [
+    {
+        "doctype": "Client Script"
+    }
+]
+
 # Testing
 # -------
 

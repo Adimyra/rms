@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-19 15:37:00.059477",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "office",
+  "set_name",
+  "hr_provision_section",
+  "sa",
+  "mail_gaurd",
+  "mts",
+  "gds",
+  "column_break_ngue",
+  "os_sa",
+  "os_mail_gaurd",
+  "os_mts",
+  "os_gds",
+  "bag_processing_section",
+  "previous_set_receipt",
+  "set_receipt",
+  "column_break_cmvu",
+  "bag_despatched",
+  "set_transfer",
+  "error_and_descrepencies_section",
+  "no_of_error",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Data",
+   "label": "Office"
+  },
+  {
+   "fieldname": "set_name",
+   "fieldtype": "Data",
+   "label": "Set Name"
+  },
+  {
+   "fieldname": "hr_provision_section",
+   "fieldtype": "Section Break",
+   "label": "HR Provision"
+  },
+  {
+   "fieldname": "sa",
+   "fieldtype": "Data",
+   "label": "SA"
+  },
+  {
+   "fieldname": "mail_gaurd",
+   "fieldtype": "Data",
+   "label": "MAil Gaurd"
+  },
+  {
+   "fieldname": "mts",
+   "fieldtype": "Data",
+   "label": "MTS"
+  },
+  {
+   "fieldname": "gds",
+   "fieldtype": "Data",
+   "label": "GDS"
+  },
+  {
+   "fieldname": "column_break_ngue",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "os_sa",
+   "fieldtype": "Data",
+   "label": "OS SA"
+  },
+  {
+   "fieldname": "os_mail_gaurd",
+   "fieldtype": "Data",
+   "label": "OS Mail Gaurd"
+  },
+  {
+   "fieldname": "os_mts",
+   "fieldtype": "Data",
+   "label": "OS MTS"
+  },
+  {
+   "fieldname": "os_gds",
+   "fieldtype": "Data",
+   "label": "OS GDS"
+  },
+  {
+   "fieldname": "bag_processing_section",
+   "fieldtype": "Section Break",
+   "label": "Bag Processing"
+  },
+  {
+   "fieldname": "previous_set_receipt",
+   "fieldtype": "Data",
+   "label": "Previous Set Receipt"
+  },
+  {
+   "fieldname": "set_receipt",
+   "fieldtype": "Data",
+   "label": "Set Receipt"
+  },
+  {
+   "fieldname": "column_break_cmvu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bag_despatched",
+   "fieldtype": "Data",
+   "label": "Bag Despatched"
+  },
+  {
+   "fieldname": "set_transfer",
+   "fieldtype": "Data",
+   "label": "Set Transfer"
+  },
+  {
+   "fieldname": "error_and_descrepencies_section",
+   "fieldtype": "Section Break",
+   "label": "Error and Descrepencies"
+  },
+  {
+   "fieldname": "no_of_error",
+   "fieldtype": "Data",
+   "label": "No of Error"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-25 02:12:00.952674",
+ "modified_by": "Administrator",
+ "module": "RMS",
+ "name": "TMO",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
