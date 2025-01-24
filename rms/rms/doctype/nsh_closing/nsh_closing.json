@@ -10,6 +10,7 @@
   "name_of_official",
   "column_break_boop",
   "set_no",
+  "flight_schedule_no",
   "section_break_oluw",
   "closed_for",
   "bag_number",
@@ -17,9 +18,10 @@
   "weight_in_kg",
   "section_break_uoji",
   "barcode_scan",
-  "column_break_chmn",
   "add_code",
+  "column_break_chmn",
   "total_scanned_article",
+  "ins_ins_vp",
   "section_break_bprf",
   "barcodes"
  ],
@@ -102,11 +104,23 @@
    "fieldtype": "Table",
    "label": "Barcodes",
    "options": "Bag Barcodes"
+  },
+  {
+   "description": "(Optional)",
+   "fieldname": "flight_schedule_no",
+   "fieldtype": "Data",
+   "label": "Flight / Schedule No"
+  },
+  {
+   "description": "Number of *INS & INS VP if scanned (Optional) e.g. 2",
+   "fieldname": "ins_ins_vp",
+   "fieldtype": "Int",
+   "label": "*INS & INS VP"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-25 02:11:58.426006",
+ "modified": "2025-01-25 03:33:52.880834",
  "modified_by": "Administrator",
  "module": "RMS",
  "name": "NSH Closing",
