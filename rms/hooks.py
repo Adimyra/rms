@@ -8,6 +8,16 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+# doc_events = {
+#     "NSH Closing": {
+#         "validate": "rms.rms.doctype.nsh_closing.nsh_closing.validate"
+#     }
+# }
+# doc_events = {
+#     "NSH Closing": {
+#         "validate": "rms.rms.doctype.nsh_closing.nsh_closing.validate"
+#     }
+# }
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/rms/css/rms.css"
